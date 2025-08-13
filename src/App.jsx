@@ -356,7 +356,7 @@ export default function Website() {
           <p className="text-muted-foreground">Start free, upgrade when you’re ready. Team & partner plans available.</p>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
-          <Tier name="Free" price="$0" period="forever" popular highlights={[
+          <Tier name="Free" price="$0" period="Trial" popular highlights={[
             "Itinerary builder",
             "Visa & vaccination alerts",
             "Travel wallet",
