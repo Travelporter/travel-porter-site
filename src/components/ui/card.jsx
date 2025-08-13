@@ -1,6 +1,20 @@
-export function Card({ children, className = "" }) {
-  return <div className={`border rounded-lg shadow p-4 ${className}`}>{children}</div>;
+// src/components/ui/card.jsx
+import React from "react";
+
+export function Card({ className = "", ...props }) {
+  return (
+    <div className={`bg-white rounded-2xl border shadow-sm ${className}`} {...props} />
+  );
 }
-export function CardContent({ children, className = "" }) {
-  return <div className={className}>{children}</div>;
+
+export function CardHeader({ className = "", ...props }) {
+  return <div className={`p-6 ${className}`} {...props} />;
+}
+
+export function CardContent({ className = "", ...props }) {
+  return <div className={`p-6 pt-0 ${className}`} {...props} />;
+}
+
+export function CardTitle({ className = "", ...props }) {
+  return <h3 className={`text-lg font-semibold ${className}`} {...props} />;
 }
