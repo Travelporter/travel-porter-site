@@ -362,13 +362,13 @@ export default function Website() {
             "Travel wallet",
             "Destination briefings",
           ]}/>
-          <Tier name="Premium" price="$5" period="mo" popular={true} highlights={[
+          <Tier name="Premium" price="$10" period="mo" popular={true} highlights={[
             "Real‑time flight alerts",
             "Early delay predictions",
             "VPN & eSIM add‑ons",
             "Advanced widgets",
           ]}/>
-          <Tier name="Pro + Magellan" price="$12" period="mo" highlights={[
+          <Tier name="Pro + Magellan" price="$20" period="mo" highlights={[
             "Full AI trip copilot",
             "Concierge support",
             "Priority features",
